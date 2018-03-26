@@ -1,0 +1,6 @@
+framework module MediaService {
+  umbrella header "MediaService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module WorkSpaceMoudle {
+  umbrella header "WorkSpaceMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

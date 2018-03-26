@@ -1,0 +1,44 @@
+PODS:
+  - HomeMoudle (0.0.1):
+    - HomeMoudle/Service (= 0.0.1)
+    - MediaService
+  - HomeMoudle/Service (0.0.1):
+    - MediaService
+  - HomeProtocol (0.0.1)
+  - MediaService (0.0.1)
+  - WorkSpaceMoudle (0.0.1):
+    - MediaService
+    - WorkSpaceMoudle/Service (= 0.0.1)
+  - WorkSpaceMoudle/Service (0.0.1):
+    - MediaService
+  - WorkSProtocol (0.0.1)
+
+DEPENDENCIES:
+  - HomeMoudle (from `../LocalRepo/HomeMoudle`)
+  - HomeProtocol (from `../LocalRepo/HomeProtocol`)
+  - MediaService (from `../LocalRepo/MediaService`)
+  - WorkSpaceMoudle (from `../LocalRepo/WorkSpaceMoudle`)
+  - WorkSProtocol (from `../LocalRepo/WorkSProtocol`)
+
+EXTERNAL SOURCES:
+  HomeMoudle:
+    :path: ../LocalRepo/HomeMoudle
+  HomeProtocol:
+    :path: ../LocalRepo/HomeProtocol
+  MediaService:
+    :path: ../LocalRepo/MediaService
+  WorkSpaceMoudle:
+    :path: ../LocalRepo/WorkSpaceMoudle
+  WorkSProtocol:
+    :path: ../LocalRepo/WorkSProtocol
+
+SPEC CHECKSUMS:
+  HomeMoudle: d1a028f9a5bd47fe0287c33604006d3d94b7e1e9
+  HomeProtocol: 1f3c0936f95158833b9ace67e9ecce637bb700d6
+  MediaService: d15f3023f98a9eea142e47d0d9f161d3aa019b40
+  WorkSpaceMoudle: 93ad5b11185ade7d07b7c442b2d8856cea5094df
+  WorkSProtocol: 7a14aa94b6d2af4c0bd84a5220e66dbb01f6835b
+
+PODFILE CHECKSUM: 482b7258a17d6852b5b6cadf9340a5f9dc523797
+
+COCOAPODS: 1.4.0
