@@ -4,26 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HomeMoudle.xcscheme_^#shared#^_</key>
+		<key>EL_MoudleALib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>EL_MoudleBLib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>MediaService.xcscheme_^#shared#^_</key>
+		<key>EL_ProtocolLib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-MainProject.xcscheme_^#shared#^_</key>
+		<key>MediaService.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>WorkSpaceMoudle.xcscheme_^#shared#^_</key>
+		<key>Pods-MainProject.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

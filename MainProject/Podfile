@@ -1,8 +1,7 @@
 use_frameworks!
 target 'MainProject' do
   pod 'MediaService', :path => '../LocalRepo/MediaService'
-  pod 'HomeProtocol', :path => '../LocalRepo/HomeProtocol'
-  pod 'WorkSProtocol', :path => '../LocalRepo/WorkSProtocol'
-  pod 'HomeMoudle', :path => '../LocalRepo/HomeMoudle'
-  pod 'WorkSpaceMoudle', :path => '../LocalRepo/WorkSpaceMoudle'
+  pod 'EL_ProtocolLib', :path => '../LocalRepo/EL_ProtocolLib'
+  pod 'EL_MoudleBLib', :path => '../LocalRepo/EL_MoudleBLib'
+  pod 'EL_MoudleALib', :path => '../LocalRepo/EL_MoudleALib'
 end

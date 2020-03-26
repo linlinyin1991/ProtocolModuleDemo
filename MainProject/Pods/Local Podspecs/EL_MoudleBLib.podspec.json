@@ -1,0 +1,28 @@
+{
+  "name": "EL_MoudleBLib",
+  "version": "0.0.2",
+  "summary": "EL_MoudleBLib is a Category for Mediator and A moudle",
+  "description": "B_Moudle is a Category for Mediator and A moudle,A_Category is a Category for Mediator and A moudle",
+  "homepage": "https://github.com/linlinyin1991/B_Moudle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yin linlin": "linlin.yin@bkjk.com"
+  },
+  "source": {
+    "git": "https://github.com/linlinyin1991/EL_MoudleBLib.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "EL_MoudleBLib/Classes/**/*",
+  "dependencies": {
+    "MediaService": [
+
+    ]
+  }
+}

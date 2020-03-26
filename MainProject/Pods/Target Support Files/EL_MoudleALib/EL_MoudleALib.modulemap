@@ -1,0 +1,6 @@
+framework module EL_MoudleALib {
+  umbrella header "EL_MoudleALib-umbrella.h"
+
+  export *
+  module * { export * }
+}

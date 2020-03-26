@@ -1,1 +1,0 @@
-../../../../../LocalRepo/HomeProtocol/HomeProtocol/Classes/BKHomeProtocol.h

@@ -1,0 +1,28 @@
+{
+  "name": "EL_MoudleALib",
+  "version": "0.0.2",
+  "summary": "EL_MoudleALib is a Category for Mediator and A moudle",
+  "description": "HomeMoudle is a Category for Mediator and A moudle,A_Category is a Category for Mediator and A moudle",
+  "homepage": "https://github.com/linlinyin1991/A_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ElaineYin": "linlinyin1991@163.com"
+  },
+  "source": {
+    "git": "https://github.com/linlinyin1991/EL_MoudleALib.git",
+    "tag": "0.0.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "EL_MoudleALib/Classes/**/*",
+  "dependencies": {
+    "MediaService": [
+
+    ]
+  }
+}

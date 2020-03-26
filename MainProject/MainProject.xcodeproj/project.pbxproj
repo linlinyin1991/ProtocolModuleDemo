@@ -104,7 +104,6 @@
 				BDF7ADA3206507A400CEF3FD /* Frameworks */,
 				BDF7ADA4206507A400CEF3FD /* Resources */,
 				E17148DAF368D7A646AF3602 /* [CP] Embed Pods Frameworks */,
-				22C80086EF6AB82674B9962D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,21 +160,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22C80086EF6AB82674B9962D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainProject/Pods-MainProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D54C0391660747CCE8403E13 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,20 +184,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HomeMoudle/HomeMoudle.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EL_MoudleALib/EL_MoudleALib.framework",
+				"${BUILT_PRODUCTS_DIR}/EL_MoudleBLib/EL_MoudleBLib.framework",
 				"${BUILT_PRODUCTS_DIR}/MediaService/MediaService.framework",
-				"${BUILT_PRODUCTS_DIR}/WorkSpaceMoudle/WorkSpaceMoudle.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomeMoudle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EL_MoudleALib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EL_MoudleBLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MediaService.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WorkSpaceMoudle.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

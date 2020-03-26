@@ -1,10 +1,10 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HomeMoudle" "${PODS_CONFIGURATION_BUILD_DIR}/MediaService" "${PODS_CONFIGURATION_BUILD_DIR}/WorkSpaceMoudle"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/EL_MoudleALib" "${PODS_CONFIGURATION_BUILD_DIR}/EL_MoudleBLib" "${PODS_CONFIGURATION_BUILD_DIR}/MediaService"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HomeProtocol" "${PODS_ROOT}/Headers/Public/WorkSProtocol"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/EL_MoudleALib/EL_MoudleALib.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/EL_MoudleBLib/EL_MoudleBLib.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MediaService/MediaService.framework/Headers" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EL_ProtocolLib"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/HomeMoudle/HomeMoudle.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MediaService/MediaService.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/WorkSpaceMoudle/WorkSpaceMoudle.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HomeProtocol" -isystem "${PODS_ROOT}/Headers/Public/WorkSProtocol"
-OTHER_LDFLAGS = $(inherited) -framework "HomeMoudle" -framework "MediaService" -framework "UIKit" -framework "WorkSpaceMoudle"
+OTHER_LDFLAGS = $(inherited) -framework "EL_MoudleALib" -framework "EL_MoudleBLib" -framework "MediaService" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

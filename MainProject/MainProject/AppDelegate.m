@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import <WorkSProtocol/BKWorkSpaceProtocol.h>
-#import <HomeProtocol/BKHomeProtocol.h>
-#import <MediaService/BKJKProtocolManager.h>
+#import "ELBProtocol.h"
+#import "ELAProtocol.h"
+#import <MediaService/ELProtocolManager.h>
 
 @interface AppDelegate ()
 
@@ -31,11 +31,11 @@
 - (void)launchRootController {
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    UIViewController *homeVC = [[BKJKProtocolManager serviceProvideForProtocol:@protocol(BKHomeProtocol)] homeViewControllerAsNavRoot:YES];
+    UIViewController *homeVC = [[ELProtocolManager serviceProvideForProtocol:@protocol(ELAProtocol)] homeViewControllerAsNavRoot:YES];
     if (homeVC) {
         [tabBarController addChildViewController:homeVC];
     }
-    UIViewController *workSpaceVC = [[BKJKProtocolManager serviceProvideForProtocol:@protocol(BKWorkSpaceProtocol)] workSpaceVCAsNavRoot:YES];
+    UIViewController *workSpaceVC = [[ELProtocolManager serviceProvideForProtocol:@protocol(ELBProtocol)] workSpaceVCAsNavRoot:YES];
     if (workSpaceVC) {
         [tabBarController addChildViewController:workSpaceVC];
     }

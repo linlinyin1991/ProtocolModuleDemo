@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "ELProtocolManager.h"
+#import "ELBHomeViewController.h"
+#import "ELBModuleService.h"
 
-FOUNDATION_EXPORT double MediaServiceVersionNumber;
-FOUNDATION_EXPORT const unsigned char MediaServiceVersionString[];
+FOUNDATION_EXPORT double EL_MoudleBLibVersionNumber;
+FOUNDATION_EXPORT const unsigned char EL_MoudleBLibVersionString[];
 
