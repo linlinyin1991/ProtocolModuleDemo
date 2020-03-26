@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.itemArray addObject:@"新闻列表"];
+    [self.itemArray addObject:@"iOS13 Dynamic Color"];
     [self.itemArray addObject:@"签到"];
     [self.itemArray addObject:@"赎楼"];
     [self.view addSubview:self.tableView];

@@ -19,16 +19,18 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor lightGrayColor];
     UIButton * newsButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    newsButton.frame = CGRectMake(10, 60, 200, 50);
-    [newsButton setTitle:@"新闻列表" forState:UIControlStateNormal];
+    newsButton.frame = CGRectMake(100, 200, 200, 50);
+    [newsButton setTitle:@"iOS13 Dynamic Color" forState:UIControlStateNormal];
     [self.view addSubview:newsButton];
     [newsButton addTarget:self action:@selector(pushToNewsListVC) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)pushToNewsListVC {
     BKNewsListViewController * newsListVC = [[BKNewsListViewController alloc] init];
+    newsListVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:newsListVC animated:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

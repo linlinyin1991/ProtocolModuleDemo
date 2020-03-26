@@ -34,7 +34,7 @@
 - (UIViewController *)newsListVCWithType:(NSString *)type {
     BKNewsListViewController *newsVC = [[BKNewsListViewController alloc] init];
     newsVC.type = type;
-    newsVC.title = @"新闻列表";
+    newsVC.title = @"iOS13 Dynamic Color";
     return newsVC;
 }
 @end
